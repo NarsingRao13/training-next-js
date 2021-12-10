@@ -9,12 +9,12 @@ export default function Home({ products, allP, productTypes }) {
   }
   return (
     <>
-      <p>sjhhb</p>
+      <p>Hello</p>
       {products?.map((product, key) => {
         return (
           <ProductDetails
             key={key}
-            deciption={product.productDescription}
+            description={product.productDescription}
             price={product.price}
             productID={product.productID}
             productName={product.productName}
